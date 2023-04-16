@@ -1,0 +1,134 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+<style>
+  .row{
+display:flex;
+align-items:center;
+flex-wrap:wrap;
+justify-content:space-around;
+}
+.col-2{
+    flex-basis:50%;
+    min-width:300px;
+}
+.col-2 img{
+    max-width: 100%;
+    padding: 50px 0;
+}
+.col-2 h1{
+    font-size:50px;
+    line-height:60px;
+    margin:25px 0;
+}
+.btn{
+    display:inline-block;
+    background-color:#d66751;
+    color:#fff;
+    padding: 8px 30px;
+    margin:30px 0px;
+    border-radius: 30px;
+    transition:background 0.5s;
+}
+.btn:hover{
+    background:#e8dcdc;
+}
+</style>
+<img src="https://fwtx.com/downloads/24683/download/TopDoc_Main.jpg?cb=9b4e1adf04b21e417809cce3f5f4965f" class="img-fluid" alt="...">
+<div class="offer" style="background-color: #6bc4c1;">
+  <div class="small-container">
+      <div class="row">
+         <div class="col-2">
+            <img width="700px" height="400px"src="https://img.icons8.com/external-dreamstale-green-shadow-dreamstale/2x/external-medical-healthcare-and-medicine-dreamstale-green-shadow-dreamstale.png" class="offer-img">
+            </div>
+         <div class="col-2">
+             <b><h2>Generic Medicines </h2></b>
+           
+             <b></b><small>       <p>
+              Generic medicines can be classiied into several categories based on their therapeutic use or mechanism of action. Some common categories of generic medicines include:
+      Thyroid, Diabetes, Neurology, Gynaecology, Analgesics and pain relievers, Anti-inflammatory drugs,Antibiotics and antivirals, Antihypertensives and cardiovascula drugs and others.
+               These categories are not exhaustive, and there are many other types of generic medicines available for various medical conditions. It's important to consult with a healthcare professional to determine the most appropriate medication for a specific health concern.
+            </p>
+         
+             </small> </br>
+             
+           </div>
+      </div>
+  </div>
+  </div>  <br>
+  <br>
+  <hr>    
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        <img  width="200" height="210"src="https://tse1.mm.bing.net/th?id=OIP.sIMaRhEHogXQcRyPIRNyMQHaLI&pid=Api&P=0"><h4 style="color:rgb(137, 122, 122);">P.Ashile <br>Call:<a href="#">9635623645</a></h4>
+      </div>
+    </div>
+  
+    <div class="column">
+      <div class="card">
+        <img  width="200" height="210"src="https://tse3.mm.bing.net/th?id=OIP.M0FZeVMZa_n7zHGbAcJF1wHaFj&pid=Api&P=0"><h4 style="color:rgb(137, 122, 122);">Berck Halm <br>Call:<a href="#">8675623645</a></h4>
+      </div>
+    </div>
+    
+    <div class="column">
+      <div class="card">
+        <img  width="200" height="210"src="https://tse3.mm.bing.net/th?id=OIP.WPYPa4GubQVLa0kQqXcfvwHaHa&pid=Api&P=0"><h4 style="color:rgb(137, 122, 122);">Selesta<br>Call:<a href="#">7835623645</a></h4>
+      </div>
+    </div>
+    
+    <div class="column">
+      <div class="card">
+        <img  width="200" height="210"src="https://tse2.mm.bing.net/th?id=OIP.h8XQ5pRyIIlxQiyc5EwW8AHaE7&pid=Api&P=0"><h4 style="color:rgb(137, 122, 122);">Steve bobs<br>Call:<a href="#">9764823645</a></h4>
+      </div>
+    </div>
+  </div>
+  <br><br>
+  
+<style>
+
+* {
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    /* Float four columns side by side */
+    .column {
+      float: left;
+      width: 25%;
+      padding: 0 10px;
+    }
+    
+    /* Remove extra left and right margins, due to padding */
+    .row {margin: 0 -5px;}
+    
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    /* Responsive columns */
+    @media screen and (max-width: 600px) {
+      .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+      }
+    }
+    
+    /* Style the counter cards */
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      padding: 25px;
+      text-align: center;
+      background-color: #f1f1f1;
+      border-radius: 15px;
+    }
+</style>
+      {% endblock content %}
