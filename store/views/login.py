@@ -31,7 +31,7 @@ class Login(View):
         else:
             error_message = 'Invalid !!'
 
-        print (email, password)
+        #print (email, password)
         return render (request, 'login.html', {'error': error_message})
 
 def logout(request):

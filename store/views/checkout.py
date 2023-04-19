@@ -15,10 +15,10 @@ class CheckOut(View):
         customer = request.session.get('customer')
         cart = request.session.get('cart')
         products = Products.get_products_by_id(list(cart.keys()))
-        print(address, phone, customer, cart, products)
+        #print(address, phone, customer, cart, products)
 
         for product in products:
-            print(cart.get(str(product.id)))
+            #print(cart.get(str(product.id)))
             order = Order(customer=Customer(id=customer),
                           product=product,
                           price=product.price,
