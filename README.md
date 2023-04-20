@@ -59,11 +59,11 @@ Voice search.
 Doctor appointments for severe problems.
 Display the usage graph of the chosen or suggested medicine.
 Delivery services.
+
 TECHNOLOGY USED 
-Frontend: react.js
-Backend: node.js 
-Database: MongoDB
-API: express.js
+Frontend: HTML,CSS ,JS
+Backend: Django
+Database: Django
 Cloud: Google Cloud
 Server: Google AMD Instance 
 
